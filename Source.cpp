@@ -1,7 +1,6 @@
 /****************************************************************
 *Employee Database
-*Team Project
-*Marius Popescu, Caleb Brothers, Derek Clark, and Baylee Ezati
+*Marius Popescu
 *11/28/15
 *Modified on 12/07/15
 *This program keeps track of employees and their pay rates, commission, monthly sales, etc
@@ -109,7 +108,6 @@ int main()
 
 /*
 fileInput
-created by Baylee Ezati and Derek Clark
 created on 12/04/15
 This function takes a vector of employees passed by reference and fills it with information from a flat file
 called "Employees.txt"
@@ -150,7 +148,6 @@ void fileInput(vector<Employee> &emp)
 
 /*
 fileOutput
-created by Baylee Ezati and Derek Clark
 created on 12/04/15
 This function takes a vector of employees passed by reference and it outputs it into a flat file
 called "Employees.txt"
@@ -180,7 +177,6 @@ void fileOutput(vector<Employee> &emp)
 
 /*
 addEmp
-created by Baylee Ezati
 created on 12/04/15
 This program takes a vect of Employees passed by references and adds/fills
 a new Employee element to the end of it
@@ -212,7 +208,6 @@ void addEmp(vector<Employee> &emp)
 
 /*
 deleteEmp
-created by Baylee Ezati
 created on 12/04/15
 This program takes a vect of Employees passed by references and deletes
 an employee based on the user's input
@@ -244,7 +239,6 @@ void deleteEmp(vector<Employee> &emp)
 
 /*
 editPayRate
-created by Baylee Ezati
 created on 12/06/15
 This function takes a vect of Employees passed by references and asks the user to enter the
 new payRate for the employee of their choice
@@ -405,7 +399,6 @@ void sortByPayRate(vector <Employee> &emp)
 }
 
 /*
-*Written by Derek Clark
 *Date created 12/6/15
 *Last modified 12/6/15
 *This function sorts the employee vector by name
@@ -461,7 +454,6 @@ void sortByName(vector <Employee> &emp)
 }
 
 /*
-*Written by Derek Clark
 *Date created 12/6/15
 *Last modified 12/6/15
 *This function displays details on one employee
@@ -492,7 +484,6 @@ void displayEmp(vector <Employee> &emp)
 
 /*
 getSales
-created by Baylee Ezati
 created on 12/06/15
 This function takes a vect of Employees passed by references and asks the user to enter the
 month's sales for every employee in the sales department
@@ -512,7 +503,6 @@ void getSales(vector<Employee> &emp)
 
 /*
 calcExpenses
-created by Baylee Ezati
 created on 12/06/15
 This function takes a vect of Employees passed by references and calculates the amount
 spent on employee salary and commission
@@ -543,7 +533,6 @@ double calcExpenses(vector<Employee> &emp)
 
 /*
 displayMenu
-created by Baylee Ezati
 created on 12/06/15
 This function displays a menu of options regarding employee information and
 returns an int value between 0-6 representing the user's selection. If
@@ -574,7 +563,6 @@ int displayMenu()
 
 /*
 editMenu
-created by Baylee Ezati
 created on 12/06/15
 This function displays a menu of options regarding editing employee information and
 returns an int value between 1-3 representing the user's selection. If
